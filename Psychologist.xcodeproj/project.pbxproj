@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F7D9B3F1ACD4F3C00C9EE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D9B3E1ACD4F3C00C9EE15 /* AppDelegate.swift */; };
-		0F7D9B411ACD4F3C00C9EE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D9B401ACD4F3C00C9EE15 /* ViewController.swift */; };
+		0F7D9B411ACD4F3C00C9EE15 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D9B401ACD4F3C00C9EE15 /* PsychologistViewController.swift */; };
 		0F7D9B441ACD4F3C00C9EE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D9B421ACD4F3C00C9EE15 /* Main.storyboard */; };
 		0F7D9B461ACD4F3C00C9EE15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D9B451ACD4F3C00C9EE15 /* Images.xcassets */; };
 		0F7D9B491ACD4F3C00C9EE15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D9B471ACD4F3C00C9EE15 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		0F7D9B391ACD4F3C00C9EE15 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7D9B3D1ACD4F3C00C9EE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F7D9B3E1ACD4F3C00C9EE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F7D9B401ACD4F3C00C9EE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7D9B401ACD4F3C00C9EE15 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		0F7D9B431ACD4F3C00C9EE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F7D9B451ACD4F3C00C9EE15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F7D9B481ACD4F3C00C9EE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,11 +77,9 @@
 		0F7D9B3B1ACD4F3C00C9EE15 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
-				0F7D9B3E1ACD4F3C00C9EE15 /* AppDelegate.swift */,
-				0F7D9B401ACD4F3C00C9EE15 /* ViewController.swift */,
+				0F7D9B401ACD4F3C00C9EE15 /* PsychologistViewController.swift */,
 				0F7D9B421ACD4F3C00C9EE15 /* Main.storyboard */,
 				0F7D9B451ACD4F3C00C9EE15 /* Images.xcassets */,
-				0F7D9B471ACD4F3C00C9EE15 /* LaunchScreen.xib */,
 				0F7D9B3C1ACD4F3C00C9EE15 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -90,6 +88,8 @@
 		0F7D9B3C1ACD4F3C00C9EE15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F7D9B471ACD4F3C00C9EE15 /* LaunchScreen.xib */,
+				0F7D9B3E1ACD4F3C00C9EE15 /* AppDelegate.swift */,
 				0F7D9B3D1ACD4F3C00C9EE15 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7D9B411ACD4F3C00C9EE15 /* ViewController.swift in Sources */,
+				0F7D9B411ACD4F3C00C9EE15 /* PsychologistViewController.swift in Sources */,
 				0F7D9B3F1ACD4F3C00C9EE15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +407,7 @@
 				0F7D9B5A1ACD4F3C00C9EE15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F7D9B5B1ACD4F3C00C9EE15 /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				0F7D9B5D1ACD4F3C00C9EE15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

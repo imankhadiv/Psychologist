@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Psychologist View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PsychologistViewController" customModule="Psychologist" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,91 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you see in your dreams?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="FnL-gw-bme">
+                                <rect key="frame" x="16" y="28" width="568" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dancing Tree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sT-mQ-5Wu">
+                                <rect key="frame" x="231" y="285" width="137" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="JQG-jQ-0qD"/>
+                                    <constraint firstAttribute="width" constant="150" id="PnC-OB-WVw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JQG-jQ-0qD"/>
+                                        <exclude reference="PnC-OB-WVw"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Golden Bear" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFc-Ko-cUU">
+                                <rect key="frame" x="233" y="246" width="132" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="EjI-Ta-qWp"/>
+                                    <constraint firstAttribute="height" constant="35" id="Ntp-rW-f07"/>
+                                    <constraint firstAttribute="width" constant="132" id="et7-Af-g1C"/>
+                                    <constraint firstAttribute="height" constant="31" id="plm-u0-gMT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EjI-Ta-qWp"/>
+                                        <exclude reference="Ntp-rW-f07"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buckeye" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOt-Wo-vAf">
+                                <rect key="frame" x="254" y="322" width="91" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="8yo-5s-BUY"/>
+                                    <constraint firstAttribute="height" constant="35" id="Puj-Q5-rLP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Puj-Q5-rLP"/>
+                                        <exclude reference="8yo-5s-BUY"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dOt-Wo-vAf" firstAttribute="top" secondItem="5sT-mQ-5Wu" secondAttribute="bottom" constant="8" symbolic="YES" id="ENs-Vz-Vef"/>
+                            <constraint firstItem="dOt-Wo-vAf" firstAttribute="centerX" secondItem="5sT-mQ-5Wu" secondAttribute="centerX" id="J3C-x8-4qK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FnL-gw-bme" secondAttribute="bottom" constant="515" id="UsU-5d-b5v"/>
+                            <constraint firstAttribute="centerX" secondItem="5sT-mQ-5Wu" secondAttribute="centerX" id="W09-Wx-4vP"/>
+                            <constraint firstItem="FnL-gw-bme" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="WIJ-Dw-ph5"/>
+                            <constraint firstItem="FnL-gw-bme" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ZBO-4r-0Rx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5sT-mQ-5Wu" secondAttribute="bottom" constant="283" id="aTj-HS-YDm"/>
+                            <constraint firstItem="5sT-mQ-5Wu" firstAttribute="top" secondItem="vFc-Ko-cUU" secondAttribute="bottom" constant="8" symbolic="YES" id="dHW-bL-hcO"/>
+                            <constraint firstItem="5sT-mQ-5Wu" firstAttribute="centerX" secondItem="FnL-gw-bme" secondAttribute="centerX" id="e0g-tZ-s2W"/>
+                            <constraint firstItem="vFc-Ko-cUU" firstAttribute="centerX" secondItem="5sT-mQ-5Wu" secondAttribute="centerX" id="rzd-Mg-w4Q"/>
+                            <constraint firstAttribute="centerY" secondItem="5sT-mQ-5Wu" secondAttribute="centerY" id="tVa-Uj-y4I"/>
+                            <constraint firstItem="FnL-gw-bme" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xpS-2s-4fE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="e0g-tZ-s2W"/>
+                                <exclude reference="UsU-5d-b5v"/>
+                                <exclude reference="aTj-HS-YDm"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="655" y="238"/>
         </scene>
     </scenes>
 </document>
