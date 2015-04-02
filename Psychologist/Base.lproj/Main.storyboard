@@ -68,8 +68,8 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Puj-Q5-rLP"/>
                                         <exclude reference="8yo-5s-BUY"/>
+                                        <exclude reference="Puj-Q5-rLP"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -105,7 +105,7 @@
         <!--Happyness View Controller-->
         <scene sceneID="7c7-3Y-jM1">
             <objects>
-                <viewController id="tqC-iV-J69" customClass="HappynessViewController" customModule="Happyness" sceneMemberID="viewController">
+                <viewController id="tqC-iV-J69" customClass="HappynessViewController" customModule="Psychologist" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="T26-PN-Lfc"/>
                         <viewControllerLayoutGuide type="bottom" id="9zi-Ol-JMU"/>
@@ -160,8 +160,8 @@
             <objects>
                 <splitViewController id="ebe-Mm-00s" sceneMemberID="viewController">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="masterViewController" id="WsN-rv-6aw"/>
-                        <segue destination="tqC-iV-J69" kind="relationship" relationship="detailViewController" id="6Ij-8a-EIn"/>
+                        <segue destination="tqC-iV-J69" kind="relationship" relationship="detailViewController" id="kqm-bm-RoJ"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="masterViewController" id="IT0-Qr-XNm"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XZm-OW-ELL" userLabel="First Responder" sceneMemberID="firstResponder"/>
