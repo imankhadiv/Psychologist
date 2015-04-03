@@ -16,6 +16,7 @@
 		0F7D9B491ACD4F3C00C9EE15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D9B471ACD4F3C00C9EE15 /* LaunchScreen.xib */; };
 		0F7D9B551ACD4F3C00C9EE15 /* PsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D9B541ACD4F3C00C9EE15 /* PsychologistTests.swift */; };
 		0FDD80EF1ACEBC8E00F300A8 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD80EE1ACEBC8E00F300A8 /* TextViewController.swift */; };
+		0FDD80F11ACEC00E00F300A8 /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD80F01ACEC00E00F300A8 /* DiagnosedHappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		0F7D9B531ACD4F3C00C9EE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F7D9B541ACD4F3C00C9EE15 /* PsychologistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistTests.swift; sourceTree = "<group>"; };
 		0FDD80EE1ACEBC8E00F300A8 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		0FDD80F01ACEC00E00F300A8 /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0F5639A71ACD65BF00BD23A9 /* HappynessViewController.swift */,
 				0F7D9B401ACD4F3C00C9EE15 /* PsychologistViewController.swift */,
 				0F7D9B421ACD4F3C00C9EE15 /* Main.storyboard */,
+				0FDD80F01ACEC00E00F300A8 /* DiagnosedHappinessViewController.swift */,
 				0FDD80EE1ACEBC8E00F300A8 /* TextViewController.swift */,
 				0F7D9B451ACD4F3C00C9EE15 /* Images.xcassets */,
 				0F7D9B3C1ACD4F3C00C9EE15 /* Supporting Files */,
@@ -224,6 +227,7 @@
 				0FDD80EF1ACEBC8E00F300A8 /* TextViewController.swift in Sources */,
 				0F7D9B411ACD4F3C00C9EE15 /* PsychologistViewController.swift in Sources */,
 				0F7D9B3F1ACD4F3C00C9EE15 /* AppDelegate.swift in Sources */,
+				0FDD80F11ACEC00E00F300A8 /* DiagnosedHappinessViewController.swift in Sources */,
 				0F5639A91ACD65BF00BD23A9 /* HappynessViewController.swift in Sources */,
 				0F5639A81ACD65BF00BD23A9 /* FaceView.swift in Sources */,
 			);

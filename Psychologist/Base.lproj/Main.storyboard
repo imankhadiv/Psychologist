@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="1834" y="44"/>
         </scene>
-        <!--Happyness View Controller-->
+        <!--Diagnosed Happiness View Controller-->
         <scene sceneID="7c7-3Y-jM1">
             <objects>
-                <viewController id="tqC-iV-J69" customClass="HappynessViewController" customModule="Psychologist" sceneMemberID="viewController">
+                <viewController id="tqC-iV-J69" customClass="DiagnosedHappinessViewController" customModule="Psychologist" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="T26-PN-Lfc"/>
                         <viewControllerLayoutGuide type="bottom" id="9zi-Ol-JMU"/>
@@ -224,12 +224,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="DTa-uq-vEf" id="YLX-ts-60g"/>
+                        <outlet property="textView" destination="7WZ-XT-j8D" id="kEJ-d8-AS5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lp4-mb-95p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2480" y="794"/>
+            <point key="canvasLocation" x="2502" y="750"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="hBG-gQ-jNQ">
